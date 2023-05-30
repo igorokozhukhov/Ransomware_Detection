@@ -44,10 +44,6 @@
 ## Дизайн пользовательского интерфейса
 ![image](https://github.com/igorokozhukhov/Ransomware_Detection/assets/41119305/b7a7f3df-16bc-4e48-bc5d-6c6f60437193)
 
-![image](https://github.com/igorokozhukhov/Ransomware-Detection/assets/41119305/c8b11f5b-8b05-42e8-8ca0-0be093b3580b)
-
-![image](https://github.com/igorokozhukhov/Ransomware-Detection/assets/41119305/8017b6e4-c72a-4dc3-b704-228a6230463a)
-
 ## Технические решения
 
 ###	Обнаружение вредоносных файлов формата PE
