@@ -14,7 +14,7 @@
 Как уже упоминалось ранее, антивирусные программы, основанные на сигнатурах, хорошо справляются с обнаружением известных вредоносных программ, которые уже были обнаружены некоторыми антивирусными компаниями. Однако они не способны обнаруживать полиморфные вредоносные программы, которые могут изменять свои сигнатуры, а также новые вредоносные программы, для которых сигнатуры еще не созданы. В свою очередь, точность эвристических детекторов не всегда достаточна для надежного обнаружения, что приводит к большому количеству ложных срабатываний и пропусков. Необходимость в новых методах обнаружения обусловлена высокой скоростью распространения полиморфных вирусов.
 
 ## Схема
-![image](https://github.com/igorokozhukhov/Ransomware-Detection/assets/41119305/228eee12-99ba-481f-9324-6b8d6f6cb742)
+![image](https://github.com/igorokozhukhov/Ransomware_Detection/assets/41119305/a574282f-e363-4a94-bbef-f1eec93d8ecd)
 
 ## Специфические требования проекта
 
@@ -39,9 +39,10 @@
 - pefile==2023.2.7
 
 ## Архитектурный дизайн
-![image](https://github.com/igorokozhukhov/Ransomware-Detection/assets/41119305/2cb9fb6b-e6b9-46b6-8e97-b4c017848fe7)
+![image](https://github.com/igorokozhukhov/Ransomware_Detection/assets/41119305/2c941d81-fdb6-4e76-99c2-bc23dbd9210d)
+
 ## Дизайн пользовательского интерфейса
-![image](https://github.com/igorokozhukhov/Ransomware-Detection/assets/41119305/9f8a1fa8-0afd-4260-b6b9-f384befce7f2)
+![image](https://github.com/igorokozhukhov/Ransomware_Detection/assets/41119305/b7a7f3df-16bc-4e48-bc5d-6c6f60437193)
 
 ![image](https://github.com/igorokozhukhov/Ransomware-Detection/assets/41119305/c8b11f5b-8b05-42e8-8ca0-0be093b3580b)
 
@@ -60,7 +61,7 @@
 ## Тестирование и проверка
 
 ### Матрица ошибок для обнаружения вредоносных PE файлов
-![image](https://github.com/igorokozhukhov/Ransomware-Detection/assets/41119305/5ae88fb3-bce2-4092-81a3-f316f2b8d894)
+![image](https://github.com/igorokozhukhov/Ransomware_Detection/assets/41119305/176acdff-7e06-47c9-b21d-0861374b6f1b)
 
 ## Анализ производительности
 
