@@ -1,6 +1,7 @@
-import os
 import time
+import os
 import pyfiglet
+
 
 def run_PE():
     file = input("Enter the path and name of the file : ")
@@ -16,12 +17,11 @@ def start():
     print(pyfiglet.figlet_format("Malware Detector"))
     print(" Welcome to Malware detector \n")
     print(" 1. PE scanner")
-    #print(" 2. URL scanner")
     print(" 2. Exit\n")
 
     select = int(input("Enter your choice : "))
 
-    if (select in [1,2,3]):
+    if (select in [1,2]):
 
         if(select == 1):
             run_PE()
@@ -35,20 +35,6 @@ def start():
                     start()
                 elif(choice == 'N' or 'n'):
                     exit()
-         
-        
-        # elif(select == 2):
-        #     run_URL()
-        #     choice = input("Do you want to search again? (y/n)")
-        #     if(choice not in ['Y','N','n','y']):
-        #         print("Bad input\nExiting...")
-        #         time.sleep(3)
-        #         exit()
-        #     else:
-        #         if(choice == 'Y' or 'y'):
-        #             start()
-        #         else:
-        #             exit()
 
         else:
             exit()
@@ -58,4 +44,3 @@ def start():
         exit()
 
 start()
-

@@ -194,12 +194,9 @@ if __name__ == '__main__':
 
     # Сопоставление с сохраненными в features.pkl характеристиками
     pe_features = list(map(lambda x: data[x], features))
-    print("Features used for classification: ", pe_features)
+    print("Features used for classification: ", features)
+
 
     # Прогнозирование, является ли PE-файл вредоносным, на основе извлеченных характеристик
     res = clf.predict([pe_features])[0]
     print('The file %s is %s' % (os.path.basename(sys.argv[1]), ['malicious', 'legitimate'][res]))
-
-
-
-
